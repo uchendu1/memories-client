@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://memories-with-linda.herokuapp.com/posts  '});
+const API = axios.create({ baseURL: 'https://memories-with-linda.herokuapp.com/posts'});
 
 
 //the auth middleware can't work without this line 8-13, adding something specific to each request
